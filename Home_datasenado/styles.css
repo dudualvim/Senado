@@ -1,0 +1,188 @@
+h3 {
+  margin: 0px;
+}
+/*Classes globais*/
+.card-datasenado {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid #cccccc; */
+  padding: 2rem 1.5rem;
+}
+.pesquisa-datasenado,
+.enquete-datasenado,
+.participe-datasenado {
+  min-height: 250px;
+}
+.titulo-card-datasenado {
+  color: #007bb1;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+.conteudo-card-datasenado {
+  color: #6d6e71;
+  font-size: 16px;
+}
+.temas-conteudo-card-datasenado {
+  padding-top: 12px;
+}
+.img-card-datasenado {
+  border-radius: 8px;
+  max-width: 100%;
+}
+.subtitulo-datasenado {
+  font-weight: bold;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.datas-datasenado {
+  color: #666666;
+  margin-top: 0px;
+}
+
+.linha-datasenado {
+  margin-top: 0rem;
+}
+
+.space {
+  padding: 1rem;
+}
+
+/*Banner principal*/
+.banner-datasenado {
+  max-width: 100%;
+  width: 100%;
+  padding-bottom: 3rem;
+  /* max-height: 360px; */
+}
+
+/*Destaques*/
+.destaque-datasenado,
+.video-datasenado {
+  min-height: 270px;
+}
+
+.video-datasenado {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*Paineis datasenado*/
+.container-img-paineis-datasenado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.img-paineis-datasenado {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100px;
+  min-height: 100px;
+  /* object-fit: cover; */
+  border-radius: 5px;
+}
+
+/*Participe*/
+.texto-participe-datasenado {
+  color: #faa731;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 1rem 0 3rem 0;
+  margin: 0px;
+  text-align: justify;
+}
+.enquetes-texto-participe-datasenado {
+  color: #6d6e71;
+  font-size: 16px;
+  padding: 0.5rem 0 0.5rem 0;
+  margin: 0px;
+  text-align: justify;
+}
+
+/*Cadastro de resultados*/
+.container-rasultados-datasenado {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.resultados-datasenado {
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  height: 120px;
+  text-align: center;
+}
+
+.titulo-resultados-datasenado {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/*Veja tambem*/
+.veja-datasenado {
+  margin-bottom: 3rem;
+  min-height: 300px;
+}
+
+.texto-veja-datasenado {
+  margin-top: 2rem;
+  color: #007bb1;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*Temas */
+
+.temas-datasenado {
+  color: #0095da;
+  background: #cccccc52;
+  border-radius: 4px;
+  padding: 3px;
+  margin-right: 9px;
+}
+
+@media (max-width: 767.98px) {
+  .titulo-card-datasenado {
+    margin-top: 1rem;
+    font-size: 20px;
+  }
+  .conteudo-card-datasenado {
+    margin-top: 1rem;
+    font-size: 18px;
+  }
+  .texto-veja-datasenado {
+    font-size: 18px;
+  }
+  .titulo-resultados-datasenado {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .card-datasenado {
+    margin-bottom: 2rem;
+  }
+  .video-datasenado {
+    height: 350px;
+  }
+  .subtitulo-datasenado {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .space {
+    display: none;
+  }
+  .participe-datasenado {
+    min-height: auto;
+  }
+  .texto-participe-datasenado {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 16px;
+  }
+}

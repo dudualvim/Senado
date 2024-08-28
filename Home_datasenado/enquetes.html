@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataSenado</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container-banner-enquete-datasenado {
+            position: relative;
+            width: 100%;
+        }
+
+        .texto-enquete-dataenado {
+            position: absolute;
+            bottom: 20%;
+            right: 15%;
+            color: #DA7E2C;
+            max-width: 60%;
+            text-align: left;
+            font-weight: 500;
+            height: auto;
+        }
+
+        .banner-enquete-datasenado {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 3rem;
+        }
+
+        .texto-enquete-dataenado h2 {
+            font-size: 2.5rem;
+        }
+
+        .texto-enquete-dataenado a {
+            display: inline-block;
+            padding: 1rem;
+            background-color: #327BB9;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 1200px) {
+            .texto-enquete-dataenado h2 {
+                font-size: 1.8rem;
+            }
+
+            .texto-enquete-dataenado a {
+                padding: 0.9rem;
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .texto-enquete-dataenado h2 {
+                font-size: 1.6rem;
+            }
+
+            .texto-enquete-dataenado {
+                font-size: 0.9rem;
+                bottom: 10%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .texto-enquete-dataenado {
+                bottom: 20%;
+                right: 10%;
+                max-width: 80%;
+            }
+
+            .texto-enquete-dataenado h2 {
+                font-size: 1.2rem;
+            }
+
+            .texto-enquete-dataenado a {
+                padding: 0.7rem;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 675px) {
+            .banner-enquete-datasenado {
+                min-height: 150px; /* Define a altura mínima */
+            }
+            
+            .texto-enquete-dataenado h2 {
+                font-size: 1.6rem;
+            }
+
+            .texto-enquete-dataenado {
+                font-size: 0.9rem;
+                left: 25%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .banner-enquete-datasenado {
+                min-height: 150px; /* Define a altura mínima */
+            }
+            
+            .texto-enquete-dataenado h2 {
+                font-size: 1.6rem;
+            }
+
+            .texto-enquete-dataenado {
+                font-size: 0.9rem;
+                left: 25%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .banner-enquete-datasenado {
+                min-height: 100px; /* Aumenta a altura mínima para telas menores */
+            }
+            
+            .texto-enquete-dataenado h2 {
+                font-size: 1rem;
+            }
+
+            .texto-enquete-dataenado a {
+                padding: 0.5rem;
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-banner-enquete-datasenado">
+            <img class="banner-enquete-datasenado" src="banner-enquete.png" alt="Banner da Enquete">
+            <div class="texto-enquete-dataenado">
+                <h2>Enquete on-line: Manejo de animais domésticos por empresa de transporte coletivo</h2>
+                <br>
+                <a href="#">Clique e Participe</a>
+            </div>
+        </div>
+        <div class="card-datasenado">
+            <h3 class="titulo-card-datasenado" style="font-weight: 400;">Você sabe a diferença entre enquete e pesquisa?</h3>
+            <p class="conteudo-card-datasenado">As enquetes do DataSenado contribuem na divulgação dos Projetos de Lei
+                em discussão na Casa. Seus resultados refletem a opinião dos participantes da enquete no portal do
+                Senado Federal e não representam, portanto, a opinião da totalidade da população brasileira. Já as
+                pesquisas DataSenado são feitas segundo critérios metodológicos rigorosos e seus resultados são válidos
+                para toda a população brasileira.</p>
+            <p class="conteudo-card-datasenado">O primeiro passo para identificar pesquisas idôneas é verificar o grau
+                de transparência da metodologia. A pesquisa deve divulgar informações básicas, tais como: o número de
+                pessoas entrevistadas, o perfil delas e como elas foram selecionadas; período e forma da coleta; e como
+                as estimativas foram calculadas para alcançar o resultado final. Ou seja, deve conter no mínimo
+                informações sobre a amostra, a coleta, a forma de ponderação e a margem de erro.</p>
+                <p class="conteudo-card-datasenado">As enquetes, por outro
+                    lado, não possuem rigor metodológico e são usadas para estimular a participação cidadã e o interesse por
+                    pautas legislativas.</p>
+                    <br>
+                <a href=""
+                style="padding: 1rem; background-color: #327BB9; color: white; border-radius: 10px; text-decoration: none; font-size: 16px;">Clique
+                e acesse nossas pesquisas</a>
+        </div>
+
+        <h3 class="subtitulo-datasenado">
+            ENQUETES REALIZADAS
+        </h3>
+        <hr class="linha-datasenado">
+            <div class="card-datasenado pesquisa-datasenado">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=compartilhamento-da-licenca-maternidade-e-da-licenca-adotante">
+                    <h5 class="datas-datasenado">07/03/2024</h5>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-card-datasenado" alt="Destaque"
+                                src="https://www12.senado.leg.br/institucional/datasenado/materias/enquetes/compartilhamento-da-licenca-maternidade-e-da-licenca-adotante/@@images/image">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="titulo-card-datasenado">Maioria é favorável ao compartilhamento de até 60 dias da
+                                licença maternidade com o cônjuge ou companheiro</h4>
+                            <p class="conteudo-card-datasenado">
+                                O Instituto DataSenado realizou enquete on-line para avaliar a opinião dos internautas
+                                sobre o Projeto de Lei n° 6.136 de 2023, que altera os arts. 392, 392-A e 473, III da
+                                Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de
+                                maio de 1943, para estabelecer o compartilhamento da licença maternidade.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="temas-conteudo-card-datasenado">
+                            Temas:
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=maternidade">maternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=paternidade">paternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=adotante">adotante</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=enquete">enquete</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=CLT">CLT</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=LICEN%C3%87A">LICENÇA</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=ADO%C3%87%C3%83O">ADOÇÃO</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        <span class="space"></span>
+            <div class="card-datasenado pesquisa-datasenado">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=compartilhamento-da-licenca-maternidade-e-da-licenca-adotante">
+                    <h5 class="datas-datasenado">07/03/2024</h5>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-card-datasenado" alt="Destaque"
+                                src="https://www12.senado.leg.br/institucional/datasenado/materias/enquetes/compartilhamento-da-licenca-maternidade-e-da-licenca-adotante/@@images/image">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="titulo-card-datasenado">Maioria é favorável ao compartilhamento de até 60 dias da
+                                licença maternidade com o cônjuge ou companheiro</h4>
+                            <p class="conteudo-card-datasenado">
+                                O Instituto DataSenado realizou enquete on-line para avaliar a opinião dos internautas
+                                sobre o Projeto de Lei n° 6.136 de 2023, que altera os arts. 392, 392-A e 473, III da
+                                Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de
+                                maio de 1943, para estabelecer o compartilhamento da licença maternidade.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="temas-conteudo-card-datasenado">
+                            Temas:
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=maternidade">maternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=paternidade">paternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=adotante">adotante</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=enquete">enquete</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=CLT">CLT</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=LICEN%C3%87A">LICENÇA</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=ADO%C3%87%C3%83O">ADOÇÃO</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <span class="space"></span>
+            <div class="card-datasenado pesquisa-datasenado">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=compartilhamento-da-licenca-maternidade-e-da-licenca-adotante">
+                    <h5 class="datas-datasenado">07/03/2024</h5>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-card-datasenado" alt="Destaque"
+                                src="https://www12.senado.leg.br/institucional/datasenado/materias/enquetes/compartilhamento-da-licenca-maternidade-e-da-licenca-adotante/@@images/image">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="titulo-card-datasenado">Maioria é favorável ao compartilhamento de até 60 dias da
+                                licença maternidade com o cônjuge ou companheiro</h4>
+                            <p class="conteudo-card-datasenado">
+                                O Instituto DataSenado realizou enquete on-line para avaliar a opinião dos internautas
+                                sobre o Projeto de Lei n° 6.136 de 2023, que altera os arts. 392, 392-A e 473, III da
+                                Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de
+                                maio de 1943, para estabelecer o compartilhamento da licença maternidade.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="temas-conteudo-card-datasenado">
+                            Temas:
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=maternidade">maternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=paternidade">paternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=adotante">adotante</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=enquete">enquete</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=CLT">CLT</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=LICEN%C3%87A">LICENÇA</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=ADO%C3%87%C3%83O">ADOÇÃO</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <span class="space"></span>
+            <div class="card-datasenado pesquisa-datasenado">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=compartilhamento-da-licenca-maternidade-e-da-licenca-adotante">
+                    <h5 class="datas-datasenado">07/03/2024</h5>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-card-datasenado" alt="Destaque"
+                                src="https://www12.senado.leg.br/institucional/datasenado/materias/enquetes/compartilhamento-da-licenca-maternidade-e-da-licenca-adotante/@@images/image">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="titulo-card-datasenado">Maioria é favorável ao compartilhamento de até 60 dias da
+                                licença maternidade com o cônjuge ou companheiro</h4>
+                            <p class="conteudo-card-datasenado">
+                                O Instituto DataSenado realizou enquete on-line para avaliar a opinião dos internautas
+                                sobre o Projeto de Lei n° 6.136 de 2023, que altera os arts. 392, 392-A e 473, III da
+                                Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de
+                                maio de 1943, para estabelecer o compartilhamento da licença maternidade.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="temas-conteudo-card-datasenado">
+                            Temas:
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=maternidade">maternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=paternidade">paternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=adotante">adotante</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=enquete">enquete</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=CLT">CLT</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=LICEN%C3%87A">LICENÇA</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=ADO%C3%87%C3%83O">ADOÇÃO</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <span class="space"></span>
+            <div class="card-datasenado pesquisa-datasenado">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=compartilhamento-da-licenca-maternidade-e-da-licenca-adotante">
+                    <h5 class="datas-datasenado">07/03/2024</h5>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-card-datasenado" alt="Destaque"
+                                src="https://www12.senado.leg.br/institucional/datasenado/materias/enquetes/compartilhamento-da-licenca-maternidade-e-da-licenca-adotante/@@images/image">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="titulo-card-datasenado">Maioria é favorável ao compartilhamento de até 60 dias da
+                                licença maternidade com o cônjuge ou companheiro</h4>
+                            <p class="conteudo-card-datasenado">
+                                O Instituto DataSenado realizou enquete on-line para avaliar a opinião dos internautas
+                                sobre o Projeto de Lei n° 6.136 de 2023, que altera os arts. 392, 392-A e 473, III da
+                                Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de
+                                maio de 1943, para estabelecer o compartilhamento da licença maternidade.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="temas-conteudo-card-datasenado">
+                            Temas:
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=maternidade">maternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=paternidade">paternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=adotante">adotante</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=enquete">enquete</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=CLT">CLT</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=LICEN%C3%87A">LICENÇA</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=ADO%C3%87%C3%83O">ADOÇÃO</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <span class="space"></span>
+            <div class="card-datasenado pesquisa-datasenado">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=compartilhamento-da-licenca-maternidade-e-da-licenca-adotante">
+                    <h5 class="datas-datasenado">07/03/2024</h5>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-card-datasenado" alt="Destaque"
+                                src="https://www12.senado.leg.br/institucional/datasenado/materias/enquetes/compartilhamento-da-licenca-maternidade-e-da-licenca-adotante/@@images/image">
+                        </div>
+                        <div class="col-sm-9">
+                            <h4 class="titulo-card-datasenado">Maioria é favorável ao compartilhamento de até 60 dias da
+                                licença maternidade com o cônjuge ou companheiro</h4>
+                            <p class="conteudo-card-datasenado">
+                                O Instituto DataSenado realizou enquete on-line para avaliar a opinião dos internautas
+                                sobre o Projeto de Lei n° 6.136 de 2023, que altera os arts. 392, 392-A e 473, III da
+                                Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de
+                                maio de 1943, para estabelecer o compartilhamento da licença maternidade.</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="temas-conteudo-card-datasenado">
+                            Temas:
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=maternidade">maternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=paternidade">paternidade</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=adotante">adotante</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=enquete">enquete</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=CLT">CLT</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=LICEN%C3%87A">LICENÇA</a>
+                            <a class="temas-datasenado"
+                                href="https://www12.senado.leg.br/institucional/datasenado/publicacoesportema?tema=ADO%C3%87%C3%83O">ADOÇÃO</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        <h3 class="subtitulo-datasenado">
+            VEJA TAMBÉM
+        </h3>
+        <hr class="linha-datasenado">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=estudo-preliminar-de-violencia-contra-mulheres-transgenero">
+                    <div class="card-datasenado veja-datasenado">
+                        <img class="img-card-datasenado" alt="Destaque"
+                            src="https://www12.senado.leg.br/institucional/datasenado/materias/enquetes/compartilhamento-da-licenca-maternidade-e-da-licenca-adotante/@@images/image">
+                        <h4 class="texto-veja-datasenado">
+                            Maioria é favorável ao compartilhamento de até 60 dias da licença maternidade com o cônjuge
+                            ou companheiro
+                        </h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=estudo-preliminar-de-violencia-contra-mulheres-transgenero">
+                    <div class="card-datasenado veja-datasenado">
+                        <img class="img-card-datasenado" alt="Destaque"
+                            src="https://www12.senado.leg.br/institucional/datasenado/materias/pesquisas/estudo-preliminar-de-violencia-contra-mulheres-transgenero/@@images/image">
+                        <h4 class="texto-veja-datasenado">
+                            Estudo preliminar de violência contra mulheres transgênero
+                        </h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <a
+                    href="https://www12.senado.leg.br/institucional/datasenado/publicacaodatasenado?id=pesquisa-estadual-de-violencia-contra-a-mulher-2024">
+                    <div class="card-datasenado veja-datasenado">
+                        <img class="img-card-datasenado" alt="Destaque"
+                            src="https://www12.senado.leg.br/institucional/datasenado/materias/pesquisas/pesquisa-estadual-de-violencia-contra-a-mulher-2024/@@images/image">
+                        <h4 class="texto-veja-datasenado">
+                            Pesquisa Estadual de Violência contra a Mulher - 2024
+                        </h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
